@@ -1,0 +1,11 @@
+{
+  "name": "Cursor Dark",
+  "author": "Cédric Verlinden",
+  "dark": true,
+  "colors": {
+    "primaryRed": "#821010"
+  },
+  "ui": {
+    "Button.background": "primaryRed"
+  }
+}
