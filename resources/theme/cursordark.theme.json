@@ -1,11 +1,120 @@
 {
   "name": "Cursor Dark",
   "author": "Cédric Verlinden",
+  "editorScheme": "/theme/cursordark.theme.xml",
   "dark": true,
   "colors": {
-    "primaryRed": "#821010"
+    "white": "#FFFFFF",
+    "primaryBlue": "#4c9df3",
+    "primaryDark": "#141414",
+    "secondaryDark": "#1a1a1a",
+    "buttonBackground": "#4c9df3",
+    "buttonForeground": "#191c22",
+    "buttonHoverBackground": "#66aefa",
+    "buttonSecondaryBackground": "#565656",
+    "buttonSecondaryForeground": "#ececec",
+    "buttonSecondaryHoverBackground": "#767676",
+    "inputBackground": "#2A2A2A55",
+    "inputForeground": "#FFFFFF",
+    "inputBorder": "#2A2A2A",
+    "border": "#FFFFFF0D",
+    "hover": "#2A2A2A99",
+    "test": "#FF0000"
   },
   "ui": {
-    "Button.background": "primaryRed"
+    "*": {
+      "background": "primaryDark",
+      "separatorColor": "border"
+    },
+
+    "Borders.color": "border",
+
+    "MainMenu.transparentSelectionBackground": "secondaryDark",
+
+    "Button": {
+      "default.foreground": "buttonForeground",
+      "default.startBackground": "buttonBackground",
+      "default.endBackground": "buttonBackground",
+      "default.startBorderColor": "buttonBackground",
+      "default.endBorderColor": "buttonBackground",
+      "default.focusedBorderColor": "buttonBackground",
+      "foreground": "buttonSecondaryForeground",
+      "startBackground": "buttonSecondaryBackground",
+      "endBackground": "buttonSecondaryBackground",
+      "startBorderColor": "buttonSecondaryBackground",
+      "endBorderColor": "buttonSecondaryBackground",
+      "focusedBorderColor": "buttonSecondaryBackground",
+      "disabledBorderColor": "inputBorder"
+    },
+
+    "ComboBox": {
+      "nonEditableBackground": "inputBackground",
+      "ArrowButton.nonEditableBackground": "inputBackground",
+      "disabledBackground": "inputBackground"
+    },
+
+    "Component": {
+      "borderColor": "inputBorder",
+      "focusColor": "inputBorder",
+      "focusedBorderColor": "inputBorder",
+      "disabledBorderColor": "inputBorder"
+    },
+
+    "ToolWindow": {
+      "Header.inactiveBackground": "primaryDark",
+      "Header.borderColor": "border",
+      "Button.selectedBackground": "#ffffff1d"
+    },
+
+    "NotificationsToolwindow.newNotification": {
+      "background": "secondaryDark",
+      "hoverBackground": "hover"
+    },
+
+    "List": {
+      "background": "primaryDark",
+      "selectionBackground": "hover"
+    },
+
+    "TextField": {
+      "background": "inputBackground",
+      "foreground": "inputForeground"
+    },
+
+    "Tree": {
+      "background": "primaryDark",
+      "hoverBackground": "hover",
+      "selectionBackground": "#2a2a2a",
+      "selectionInactiveBackground": "#222222"
+    },
+
+    "ToolTip": {
+      "background": "secondaryDark",
+      "borderColor": "secondaryDark",
+      "foreground": "white"
+    },
+
+    "VersionControl": {
+      "Log.Commit.currentBranchBackground": "secondaryDark",
+      "Log.Commit.hoveredBackground": "hover"
+    },
+
+    "ActionButton": {
+      "hoverBackground": "secondaryDark",
+      "hoverBorderColor": "secondaryDark",
+      "pressedBackground": "secondaryDark",
+      "pressedBorderColor": "secondaryDark"
+    },
+
+    "Popup": {
+      "Header.activeBackground": "primaryDark"
+    },
+
+    "EditorTabs": {
+      "borderColor": "secondaryDark",
+      "underlinedTabBackground": "secondaryDark",
+      "underlineColor": "secondaryDark",
+      "hoverBackground": "primaryDark"
+    }
   }
 }

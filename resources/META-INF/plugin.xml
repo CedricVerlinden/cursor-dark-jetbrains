@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-    <id>cursordark</id>
+    <id>com.cedricverlinden.cursordark.intellij</id>
     <version>0.1.0</version>
 
     <!-- Public plugin name should be written in Title Case.
@@ -32,6 +32,6 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="cursordark" path="/theme/cursordark.theme.json"/>
+        <themeProvider id="cursor-dark" path="/theme/cursordark.theme.json"/>
     </extensions>
 </idea-plugin>
