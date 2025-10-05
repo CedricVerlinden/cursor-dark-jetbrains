@@ -17,8 +17,7 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
     <description><![CDATA[
-        Enter short description for your theme here.<br>
-        <em>most HTML tags may be used</em>
+        A copy of the Cursor AI editor theme from cursor.sh, repackaged for use inside the JetBrains products.
     ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
