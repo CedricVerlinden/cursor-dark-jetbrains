@@ -1,13 +1,12 @@
-# Cursor Theme JetBrains products
+# Cursor Theme for JetBrains products
 
-A faithful copy of the [Cursor](https://cursor.sh) AI editor theme, now available as a standalone JetBrains theme extension.
+A copy of the [Cursor](https://cursor.sh) AI editor theme, now available as a standalone JetBrains theme extension.
 
 > This extension is not affiliated with or endorsed by Cursor. All credit for the original theme design goes to the Cursor team.
 
-## ✨ Features
+## 👀 Preview
 
--   Inspired look and feel to the default Cursor editor theme
--   Minimal, clean design with a focus on readability
+![Preview of the Cursor Dark theme in an example Java product](/resources/META-INF/preview.png)
 
 ## 📄 License
 
