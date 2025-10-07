@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>com.cedricverlinden.cursordark.intellij</id>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
@@ -17,13 +17,28 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
     <description><![CDATA[
-        A copy of the Cursor AI editor theme from cursor.sh, repackaged for use inside the JetBrains products.
+        <h1>Cursor Theme for JetBrains products</h1>
+        <p>A copy of the <a href="https://cursor.sh">Cursor</a> AI editor theme, now available as a standalone JetBrains theme extension.</p>
+        <blockquote>
+        <p>This extension is not affiliated with or endorsed by Cursor. All credit for the original theme design goes to the Cursor team.</p>
+        </blockquote>
+        <h2>👀 Preview</h2>
+        <img src="./preview.png" alt="test" title="test">
+        <h2>📄 License</h2>
+        <p>This theme is provided as-is under the <a href="../../LICENSE">MIT License</a>. All visual design credit goes to the creators of Cursor.</p>
     ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-        Initial release of the theme.
+        <p>0.2.0</p>
+        <ul>
+            <li>Update plugin.xml description to match README.md</li>
+        </ul>
+        <p>0.1.0</p>
+        <ul>
+            <li>Initial release of the theme.</li>
+        </ul>
     ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
