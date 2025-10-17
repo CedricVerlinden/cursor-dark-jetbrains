@@ -1,13 +1,13 @@
 {
-  "name": "Cursor Dark",
+  "name": "Cursor Less Dark",
   "author": "Cédric Verlinden",
   "editorScheme": "/theme/cursordark.theme.xml",
   "dark": true,
   "colors": {
     "white": "#FFFFFF",
     "primaryBlue": "#4c9df3",
-    "primaryDark": "#141414",
-    "secondaryDark": "#1a1a1a",
+    "primaryDark": "#1E1E1E",
+    "secondaryDark": "#242424",
     "buttonBackground": "#81a1c1",
     "buttonForeground": "#191c22",
     "buttonHoverBackground": "#66aefa",
@@ -27,6 +27,8 @@
       "separatorColor": "border",
       "inactiveBackground": "secondaryDark"
     },
+
+    "windowBorder": "0,0,0,0,FFFFFF",
 
     "Borders.color": "border",
 
@@ -55,7 +57,6 @@
     },
 
     "Component": {
-      "arc": 8,
       "borderColor": "inputBorder",
       "focusColor": "inputBorder",
       "focusedBorderColor": "inputBorder",

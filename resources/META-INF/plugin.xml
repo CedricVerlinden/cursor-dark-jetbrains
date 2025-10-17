@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>com.cedricverlinden.cursordark</id>
-    <version>0.4.0</version>
+    <version>0.5.0</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
@@ -29,6 +29,12 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
+        <p>0.5.0</p>
+        <ul>
+            <li>Introduce new "Cursor Less Dark" variant where the UI is a bit less dark</li>
+            <li>Change FileColors to be more subtle and less distracting</li>
+            <li>Fix inactiveBackground</li>
+        </ul>
         <p>0.4.0</p>
         <ul>
             <li>Improve color scheme</li>
@@ -54,5 +60,6 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="cursor-dark" path="/theme/cursordark.theme.json"/>
+        <themeProvider id="cursor-less-dark" path="/theme/cursorlessdark.theme.json"/>
     </extensions>
 </idea-plugin>
