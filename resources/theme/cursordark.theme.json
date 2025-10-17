@@ -8,11 +8,11 @@
     "primaryBlue": "#4c9df3",
     "primaryDark": "#141414",
     "secondaryDark": "#1a1a1a",
-    "buttonBackground": "#4c9df3",
+    "buttonBackground": "#81a1c1",
     "buttonForeground": "#191c22",
     "buttonHoverBackground": "#66aefa",
-    "buttonSecondaryBackground": "#565656",
-    "buttonSecondaryForeground": "#ececec",
+    "buttonSecondaryBackground": "#626262",
+    "buttonSecondaryForeground": "#dadada",
     "buttonSecondaryHoverBackground": "#767676",
     "inputBackground": "#2A2A2A55",
     "inputForeground": "#FFFFFF",
@@ -24,7 +24,8 @@
   "ui": {
     "*": {
       "background": "primaryDark",
-      "separatorColor": "border"
+      "separatorColor": "border",
+      "inactiveBackground": "secondaryDark",
     },
 
     "Borders.color": "border",
@@ -54,6 +55,7 @@
     },
 
     "Component": {
+      "arc": 8,
       "borderColor": "inputBorder",
       "focusColor": "inputBorder",
       "focusedBorderColor": "inputBorder",
@@ -115,6 +117,18 @@
       "underlinedTabBackground": "secondaryDark",
       "underlineColor": "secondaryDark",
       "hoverBackground": "primaryDark"
-    }
+    },
+
+    "FileColor": {
+      "Yellow": "#F9F5D705",
+      "Blue": "#D7E3F405",
+      "Gray": "#E3E3E305",
+      "Green": "#D8E4D005",
+      "Orange": "#F7E1C305",
+      "Rose": "#F3D6D905",
+      "Violet": "#E3D8F005"
+    },
+
+    "Button.arc": 8
   }
 }
